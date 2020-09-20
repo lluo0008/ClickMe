@@ -72,7 +72,7 @@ function startTimer(duration, display) {
 	<button type="button" id="start" onclick="start()">START</button>
 	<button type="button" id="button" onclick="clickMe()"></button>
 </div>
- <div class = "timer">Press it as many times as you can in <span id="time">30</span> seconds!</div>
+ <div class = "timer"> <span id="time">Press it as many times as you can in 30 seconds!</span> </div>
  <p class = "counter" id="count"></p>
 </body>
 </html>
