@@ -8,9 +8,21 @@
 <link rel="stylesheet" href="styles.css">
 
 <script type="text/javascript">
+var a=100;
+
 function clickMe() {
 	document.getElementById('button').style.top = Math.floor((Math.random() * (window.innerHeight-100)) + 1) + "px";
 	document.getElementById('button').style.left = Math.floor((Math.random() * (window.innerWidth-100)) + 1) + "px";
+	
+	document.getElementById('button').style.width=(a-10)+"px";
+	document.getElementById('button').style.height=(a-10)+"px";
+	a=a-10;
+	if (a<=30) {
+		a=30;
+	}
+	
+	document.getElementById("in").innerHTML="size is"+a;
+	
 }
 
 function startTimer(duration, display) {
