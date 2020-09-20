@@ -16,5 +16,25 @@ body {
 	
 }
 
+#start {
+	margin-left: 95vh;
+}
+.header{
+	font-family: "Times New Roman";	
+	margin-left: 50vh;
+	font-size: 5rem;
+	
+}
+.timer {
+	margin-left: 70vh;
+}
+
+.counter {
+	margin-left:95vh;
+	
+	
+	
+}
+
 
 
