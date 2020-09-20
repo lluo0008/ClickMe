@@ -9,19 +9,21 @@
 
 <script type="text/javascript">
 var a=100;
-
+var c=0;
 function clickMe() {
 	document.getElementById('button').style.top = Math.floor((Math.random() * (window.innerHeight-100)) + 1) + "px";
 	document.getElementById('button').style.left = Math.floor((Math.random() * (window.innerWidth-100)) + 1) + "px";
 	
-	document.getElementById('button').style.width=(a-10)+"px";
-	document.getElementById('button').style.height=(a-10)+"px";
+	document.getElementById('button').style.width=(a-1)+"px";
+	document.getElementById('button').style.height=(a-1)+"px";
 	a=a-10;
 	if (a<=30) {
 		a=30;
 	}
 	
-	document.getElementById("in").innerHTML="size is"+a;
+	c=c+1;
+	document.getElementById("count").innerHTML="Counter: "+c;
+	
 	
 }
 
@@ -57,5 +59,6 @@ window.onload = function () {
 	<button type="button" id="button" onclick="clickMe()">o</button>
 </div>
  <div>press it as many times as you can in <span id="time">30</span> seconds!</div>
+ <p id="count"></p>
 </body>
 </html>
