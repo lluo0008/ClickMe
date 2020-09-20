@@ -53,12 +53,12 @@ window.onload = function () {
 
 </head>
 <body>
-<h1>AIM TRAINER 100</h1>
+<div class = "header"> Aim Trainer 69420</div>
 
 <div>
 	<button type="button" id="button" onclick="clickMe()">o</button>
 </div>
- <div>press it as many times as you can in <span id="time">30</span> seconds!</div>
- <p id="count"></p>
+ <div class = "timer">Press it as many times as you can in <span id="time">30</span> seconds!</div>
+ <p class = "counter" id="count"></p>
 </body>
 </html>
