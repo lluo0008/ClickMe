@@ -39,7 +39,6 @@ function clickMe() {
 	c=c+1;
 	document.getElementById("count").innerHTML="Counter: "+c;
 	
-	
 }
 
 function startTimer(duration, display) {
@@ -71,7 +70,9 @@ function startTimer(duration, display) {
 
 <div>
 	<button type="button" id="start" onclick="start()">START</button>
+	<button type="button" id="restart" onclick="location.reload()">RESTART</button>
 	<button type="button" id="button" onclick="clickMe()"></button>
+	
 </div>
  <div class = "timer"> <span id="time">Press it as many times as you can in 30 seconds!</span> </div>
  <p class = "counter" id="count"></p>
