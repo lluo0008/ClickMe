@@ -1,2 +1,12 @@
 @charset "ISO-8859-1";
-Samuel u a bitch
+
+button
+{
+	margin-left: 500px;
+	margin-top: 500px;
+}
+
+.button.move
+{
+	margin-left:50px;
+}
