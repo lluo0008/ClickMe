@@ -28,8 +28,9 @@ body {
 
 #restart {
 	position: fixed;
-	top:40%;
-	left:47%;
+	top: 40%;
+	left: 50%;
+	margin:auto;
 	tranform: translate(-50%,-50%);
 	font-family:"Lucida Console";
 }
