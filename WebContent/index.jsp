@@ -54,6 +54,7 @@ function startTimer(duration, display) {
         display.textContent = "00:" + seconds;
 		if(timer == 0) {
 			display.textContent = "Game over";
+			document.getElementById("button").style.visibility = "hidden";
 			return;
 		}
         if (--timer < 0) {
@@ -66,7 +67,7 @@ function startTimer(duration, display) {
 
 </head>
 <body>
-<div class = "header"> Aim Trainer 69420</div>
+<div class = "header">Aim Trainer</div>
 
 <div>
 	<button type="button" id="start" onclick="start()">START</button>
