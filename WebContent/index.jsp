@@ -9,8 +9,8 @@
 
 <script type="text/javascript">
 function clickMe() {
-	document.getElementById('button').style.top = Math.floor((Math.random() * 700) + 1) + "px";
-	document.getElementById('button').style.left = Math.floor((Math.random() * 1000) + 1) + "px";
+	document.getElementById('button').style.top = Math.floor((Math.random() * (window.innerHeight-100)) + 1) + "px";
+	document.getElementById('button').style.left = Math.floor((Math.random() * (window.innerWidth-100)) + 1) + "px";
 }
 
 function startTimer(duration, display) {
