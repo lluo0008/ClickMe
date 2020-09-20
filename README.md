@@ -17,4 +17,6 @@ practice one's aim with a mouse cursor. This is when we started to develop the a
 a timer, a point system, as well as the target getting smaller every time it reappears to increase the difficulty. 
 
 ## Deploying with Amazon Web Services
-A large portion of the project is deploying it with AWS, as this was one of the prize categories that we wanted to compete for. 
+A large portion of the project is deploying it with AWS, as this was one of the prize categories that we wanted to compete for. We started off by creating a sample application
+on AWS with a test environment, and then deploying a basic java web app to see if it works. This was the largest hurdle for the AWS component of our project, just because it is
+new for everyone and there was quite a bit of reading to do to fully understand how AWS can deploy an application, and the features that it offers such as automatic load balancing, scaling, etc. It was a really great learning experience for all of us since none of us have actually deployed any web apps before this hackathon.
