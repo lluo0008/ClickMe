@@ -6,13 +6,20 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript">
+function clickMe() {
+	document.getElementById('button').style.top = Math.floor((Math.random() * 200) + 1) + "px";
+	document.getElementById('button').style.left = Math.floor((Math.random() * 200) + 1) + "px";
+}
+</script> 
+
 </head>
 <body>
-<div class = "button" id="button">
-	<button type="button">ClickMe!</button>
+<h1>AIM TRAINER 100</h1>
+<div>
+	<button type="button" id="button" onclick="clickMe()">ClickMe!</button>
 </div>
-<script type="javascript">
-some javascript code that changes the button position
-</script>
+
 </body>
 </html>
