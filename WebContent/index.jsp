@@ -18,6 +18,7 @@ function start()
 	document.getElementById('button').style.left = (window.innerWidth/2 - 100) + "px";
 	document.getElementById('button').style.width=100+"px";
 	document.getElementById('button').style.height=100+"px";
+	a = 100;
 	
 	var time = 30,
     display = document.querySelector('#time');

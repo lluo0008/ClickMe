@@ -9,6 +9,7 @@ body {
 #button
 {
 	position:absolute;
+	visibility: hidden;
 	background-color: rgba(255,255,255,.9);
 	border-radius:60%;
 	width: 100px;
@@ -17,23 +18,22 @@ body {
 }
 
 #start {
-	margin-left: 95vh;
+	margin: auto;
+
 }
 .header{
 	font-family: "Times New Roman";	
-	margin-left: 50vh;
+	text-align: center;
 	font-size: 5rem;
 	
 }
 .timer {
-	margin-left: 70vh;
+	text-align: center;
 }
 
 .counter {
-	margin-left:95vh;
-	
-	
-	
+	text-align: center;
+
 }
 
 
