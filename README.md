@@ -15,3 +15,6 @@ imitating physics in Java, which is why we decided to go for a more simple web a
 the user will try to click, but once it gets clicked it will reappear at a random location. As we flushed out this idea more, we quickly realized that this could be a way to
 practice one's aim with a mouse cursor. This is when we started to develop the application as an "Aim Trainer", and included many features to make it more interactive such as
 a timer, a point system, as well as the target getting smaller every time it reappears to increase the difficulty. 
+
+## Deploying with Amazon Web Services
+A large portion of the project is deploying it with AWS, as this was one of the prize categories that we wanted to compete for. 
