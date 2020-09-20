@@ -18,7 +18,7 @@ function clickMe() {
 <body>
 <h1>AIM TRAINER 100</h1>
 <div>
-	<button type="button" id="button" onclick="clickMe()">ClickMe!</button>
+	<button type="button" id="button" onclick="clickMe()">o</button>
 </div>
 
 </body>
